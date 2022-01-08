@@ -1,0 +1,36 @@
+h1{
+    color: rgb(221, 64, 90);
+    
+  }
+  /* *{ 
+    border: solid;
+ } */
+
+ .header{
+     text-align: center;
+     display: flex;
+     justify-content: space-between;  
+     border: solid;
+     border-color: lightblue; 
+ }
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p, h2{
+    text-align: center;
+    color: rgb(114, 49, 114);
+    font-family: fantasy;
+}
+
+body{
+    background-image: url("background.png");
+}
